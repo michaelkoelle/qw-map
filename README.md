@@ -1,1 +1,3 @@
-# quantum-weight-remapping
+# qW-Map: Weight Re-Mapping for Variational Quantum Circuits
+
+### 🚧 Repo is under active development ...
