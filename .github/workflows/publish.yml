@@ -7,7 +7,7 @@ name: Upload Python Package
 on:
   push:
     tags:
-      - '*' # all tags will trigger a new release
+      - 'v*' # all tags will trigger a new release
 
 jobs:
   build:
@@ -30,7 +30,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag_name: ${{ github.ref }}
-          release_name: v${{ github.ref }}
+          release_name: ${{ github.ref }}
           body: |
             ${{ steps.Changelog.outputs.changelog }}
           draft: false
