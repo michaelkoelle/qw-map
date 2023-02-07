@@ -8,7 +8,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name="qW-Map",
-    version="0.1.1",
+    version="0.1.2",
     description="A PyTorch implementation of Quantum Weight Re-Mapping",
     author="Michael Kölle",
     author_email="michael.koelle@ifi.lmu.de",
