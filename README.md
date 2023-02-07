@@ -32,4 +32,4 @@ def circuit(ws: Tensor, x: Tensor):
 
 ## Citation
 
-TODO
+Kölle, M.; Giovagnoli, A.; Stein, J.; Mansky, M.; Hager, J. and Linnhoff-Popien, C. (2023). Improving Convergence for Quantum Variational Classifiers Using Weight Re-Mapping. In _Proceedings of the 15th International Conference on Agents and Artificial Intelligence - Volume 2_ , ISBN 978-989-758-623-1, ISSN 2184-433X, pages 251-258.TOD
